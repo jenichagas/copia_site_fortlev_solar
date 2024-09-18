@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="sass/style.css" />
+  <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon">
+  <title>Fortlev Solar</title>
+</head>
+
+<body>
+  <div class="main-conteiner">
+    <div class="conteiner">
+      <div class="header">
+        <h1>Cadastre-se na Fortlev Solar</h1>
+        <p></p>
+      </div>
+
+      <form>
+        <div class="account-info-email">
+          <label for="name"><b>Nome</b></label>
+          <input class="input-credentials" type="text" placeholder="digite seu nome completo aqui" name="name" id="input" required />
+        </div>
+
+        <div class="account-info-password">
+          <label for="phone"><b>Telefone</b></label>
+          <input class="input-credentials" type="tel" id="phone" name="phone" placeholder="(00)0000-0000" pattern="^\(?\d{2}\)?\s?\d{4,5}-?\d{4}$"
+            required inputmode="numeric" />
+        </div>
+
+        <button class="btn-login" type="submit">
+          Entrar
+        </button>
+
+        <div>
+          <p><a href="index.html">Voltar para login.</a></p>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

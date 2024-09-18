@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    color: var(--text-color);
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s, fill 0.3s,
+        stroke 0.3s, border 0.3s ;
+}
